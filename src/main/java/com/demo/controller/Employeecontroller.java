@@ -56,4 +56,9 @@ public class Employeecontroller {
 	public String get2() {
 		return "success";
 	}
+	
+	@GetMapping("/git3")
+	public String get3() {
+		return "responsed";
+	}
 }
