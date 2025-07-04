@@ -50,7 +50,10 @@ public class Employeecontroller {
 	
 	@GetMapping("/git")
 	public String get1() {
-		return "saved";
-		
+		return "saved";		
+	}
+	@GetMapping("/git1")
+	public String get2() {
+		return "success";
 	}
 }
