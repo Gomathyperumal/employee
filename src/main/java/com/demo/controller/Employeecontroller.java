@@ -61,4 +61,8 @@ public class Employeecontroller {
 	public String get3() {
 		return "responsed";
 	}
+	@GetMapping("/git4")
+	public String get4() {
+		return "fully";
+	}
 }
